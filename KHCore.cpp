@@ -88,15 +88,7 @@ int main(int argc, char *argv[]) {
 					/*n_threads*/argc>6?atoi(argv[6]):1,
 					/*sample_rate*/argc>7?atof(argv[7]):1.0,
 					/*error_rate*/argc>8?atof(argv[8]):0, core);
-		}else if (strcmp(argv[1], "casestudy") == 0){
-			if (argc < 5){
-				printf("Usage: path1_graph path2_cores path3_authors string_name\n");
-				abort();
-			}
-			KHCore khcore(/*dataset*/ argv[2]);
-			khcore.casestudy(/*dataset*/ argv[3], argv[4], argv[5]);
-		}
-		else {
+		}else {
 			printf("please select: txt-to-bin, decompose, compare, scal, or casestudy\n");
 			abort();
 		}
