@@ -22,13 +22,13 @@ Running examples:
 	./run decompose data/example.bin 2 4 0.1 0.01 data/ core-number.bin
 	./run compare path file1 file2
 
-If selecting 'scal'
+If running 'scal'
 
 	usage: ./run scal scal-rate vary infile h t sampling-rate error-rate outfile-path outfile
 	scal-rate: the range is (0,100].
 	vary: '1' for sampling vertices, or '2' for sampling edges.
 
-If selecting 'casestudy'
+If running 'casestudy'
 
 	usage:./run compare file1 file2 file3 a-professor
 	file1: the binary graph file.
