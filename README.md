@@ -4,7 +4,7 @@ This code can be compiled with g++. If the compilation is not successful, please
 
 Compilation: 
 
-	g++ "-std=c++11" -O3 -o run KHCore.cpp
+	g++ "-std=c++11" -O3 -o run KHCore.cpp -fopenmp
 
 The first parameter is the algorithm that the program runs. Please select one of {txt-to-bin, decompose, compare, scal}
 
