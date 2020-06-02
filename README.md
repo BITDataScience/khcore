@@ -5,6 +5,7 @@ This code can be compiled with g++. If the compilation is not successful, please
 Compilation: g++ "-std=c++11" -O3 -o run KHCore.cpp
 
 The first parameter is the algorithm that the program runs. Please select one of {txt-to-bin, decompose, compare, scal, casestudy}
+
 	txt-to-bin: format the txt file to the bin file.
 	decompose: run the decomposition algorithms.
 	compare: compute the precision of the sampling algrithm.
